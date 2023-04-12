@@ -2,12 +2,29 @@
 
 <html>
 <body>
-    <form action="" name="form1" method="post">
-        제목<input type = "text" name="title"><br>
-        내용<textarea type = "text" rows="20" cols="20" name="textarea"></textarea><br>
-        이름<input type="text" name="name"><br>
-        학번<input type="number" name="number"><br>
-        <input type = "submit" name="submit" value="제출">
-        <input type="reset" name="reset" value="초기화">
-</form>
+    <form action="" name="test">
+        <fieldset>
+            다음 지문에서 설명하는 사람은 누구인가?
+            <legend>보기</legend>
+            Born in Maida Vale, London, he was raised in southern England. He graduated at King's College, Cambridge, with a degree in mathematics. 
+            Whilst he was a fellow at Cambridge, he published a proof demonstrating that some purely mathematical yes–no questions can never be answered by computation and defined a Turing machine, and went on to prove that the halting problem for Turing machines is undecidable. 
+            In 1938, he obtained his PhD from the Department of Mathematics at Princeton University. During the Second World War, Turing worked for the Government Code and Cypher School at Bletchley Park, Britain's codebreaking centre that produced Ultra intelligence. 
+            For a time he led Hut 8, the section that was responsible for German naval cryptanalysis. 
+            Here, he devised a number of techniques for speeding the breaking of German ciphers, including improvements to the pre-war Polish bomba method, an electromechanical machine that could find settings for the Enigma machine. Turing played a crucial role in cracking intercepted coded messages that enabled the Allies to defeat the Axis powers in many crucial engagements, including the Battle of the Atlantic.
+            <br>정답 입력<input type="text" required placeholder="정답을 입력하세요">
+            <input type="radio" name="select" id="1" value="1">
+            <label for="1">Alan Walker</label>
+            <input type="radio" name="select" id="2" value="2">
+            <label for="2">Alah Muhemat</label>
+            <input type="radio" name="select" id="3" value="3">
+            <label for="3">Ark</label>
+            <input type="radio" name="select" id="4" value="4">
+            <label for="4">Amis Jill</label>
+            <input type="radio" name="select" id="5" value="5">
+            <label for="5">Alan Turing</label>
+            서술형 답안 파일 제출:
+            <input type="file" accept="image/jpg,image/png">
+        </fieldset>
+    </form>
+</body>
 </html>
