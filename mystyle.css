@@ -1,0 +1,6 @@
+/*mystyle.css*/
+        *{color: blue;}
+p:hover{background-color: aqua;}
+a:link{color: yellowgreen;}
+a:visited{color :tomato;}
+#name{background-color: yellow; color: red;}
