@@ -1,18 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <title>
-
-        </title>
-    </head>
-
-    <body>
-        <iframe src="inner.html"width="300"height="100"></iframe>
-        <p>
-            <a href="http://www.w3.org"target="inner3.html"></a>
-        </p>
-        <iframe src="inner2.html"width="300"height="100"></iframe>
-        <iframe src="inner3.html"width="300"height="100"></iframe>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text],textatra
+        {
+            border: 2px solid blue;
+            margin: 10px 0px;
+            width: 90%;
+            display: inline-block;
+            height: 70%;
+            padding: 6px 10px;
+            border-radius: 4px;
+        }
+        input[type=text]:hover{
+            background-color: bisque;
+        }
+        input[type=text]:focus{
+            font-size: 15px;
+        }
+        input[type=email],textatra
+        {
+            border: 2px solid blue;
+            margin: 10px 0px;
+            width: 90%;
+            display: inline-block;
+            height: 70%;
+            padding: 6px 10px;
+            border-radius: 4px;
+        }
+        input[type=email]:hover{
+            background-color: bisque;
+        }
+        input[type=email]:focus{
+            font-size: 15px;
+        }
+        input[type=subject]
+        {
+            border: 2px solid blue;
+            margin-bottom: 10px;
+            width: 90%;
+            height: 70%;
+        }
+        input[type=submit]
+        {
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+        }
+    </style>
+</head>
+<body>
+    <h2>상품 평</h2>
+    <p>받으신 상품을 평가해주세요.</p>
+    <div>
+        <form action="process.jsp">
+            <label for="name">이름</label><br>
+            <input type="text" id="name" name="name" placeholder="이름"><br>
+            <label for="email">이메일</label><br>
+            <input type="email" id="email" name="email" placeholder="이메일"><br>
+            <label for="subject">상품 평</label><br>
+            <textarea id="subject" name="subject" 
+            placeholder="상품을 평가해주세요." style="height:100px"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body><body>
+    
+</body>
 </html>
