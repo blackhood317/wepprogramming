@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>덧셈 계산기</h1>
+    <h1 id ="test">숫자출력을 눌러 값을 확인해주십시오</h1>
+    <button onclick="printnum()">숫자출력</button>
+    <script>
+        let x=parseInt(prompt("첫번째 숫자를 입력하세요"));
+        let y=parseInt(prompt("두번째 숫자를 입력하세요"));
+        let z=x+y;
+        function printnum(){
+            document.getElementById("test").innerHTML=z;
+        }
+    </script>
+</body>
+</html>
